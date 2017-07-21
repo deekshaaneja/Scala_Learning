@@ -9,3 +9,8 @@ Traditional-
 public static Boolean checkEvenOdd(Int n){
 if(n%2 == 0){return true}
 else{return false}}
+
+
+//List Greater Than N, Pass List and Number N to this function
+  def filterIntGreaterThanN(list: List[Int],N:Int)=list.filter(_>N)
+def main(args: Array[String]): Unit = {    println(filterIntGreaterThanN(List(200,1,2,34,56,25,89,78),20))}
