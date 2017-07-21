@@ -1,0 +1,8 @@
+Moving from Traditional Syntax to Scala
+Example-Finding Odd or Even
+Case 1- Find whether a number is odd or even
+ Scala- def oddEven(n:Int):Boolean=n%2==0
+Traditional-
+public static Boolean checkEvenOdd(Int n){
+if(n%2 == 0){return true}
+else{return false}}
